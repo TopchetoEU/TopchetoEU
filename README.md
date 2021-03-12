@@ -8,4 +8,4 @@
   
   Some highlights:
   - Minecraft.net (development still in progress)
-  - NiceOS (development still in progress)
+  - NiceOS (killed it)
