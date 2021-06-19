@@ -8,5 +8,5 @@
   
   Some highlights:
   - Minecraft.net (barely alive)
-  - NiceOS (killed it)
+  - NiceOS (it has awaken from the dead, but it's barely alive still)
   - A custom language, ++C (developing)
