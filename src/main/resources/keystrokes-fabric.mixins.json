@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.topchetoeu.keystrokes.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "Renderer",
+    "KeyBindingMapAccesor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

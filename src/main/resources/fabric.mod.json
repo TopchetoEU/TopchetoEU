@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "keystrokes-fabric",
+  "version": "${version}",
+
+  "name": "Keystrokes for Fabric",
+  "description": "This is a similar mod to the Keystrokes mod for Forge, but for Fabric",
+  "authors": [ "TopchetoEU" ],
+
+  "license": "GPL3",
+  "icon": "assets/keystrokes-fabric/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.topchetoeu.keystrokes.Keystrokes"
+    ]
+  },
+  "mixins": [
+    "keystrokes-fabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
