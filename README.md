@@ -7,6 +7,6 @@
   - Mainly some shit to kill time, actually, that's all I do
   
   Some highlights:
-  - Minecraft.net (alive, back from the dead, somehow)
-  - NiceOS (dead)
-  - A custom language, ++C (alive, rewritting it in C)
+  - Minecraft.net (in state of anestesia)
+  - NiceOS (back from the dead)
+  - A custom language, ++C (alive, rewritting it in C, kinda ded)
