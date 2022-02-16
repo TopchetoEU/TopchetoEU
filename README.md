@@ -10,3 +10,5 @@
   - Minecraft.net (in state of anestesia)
   - NiceOS (back from the dead)
   - A custom language, ++C (alive, rewritting it in C, kinda ded)
+
+Whoever edited my readme is very funny, if he were making a standup comedy he would be sitting
