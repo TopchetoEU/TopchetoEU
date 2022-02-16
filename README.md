@@ -8,7 +8,7 @@
   
   Some highlights:
   - Minecraft.net (in state of anestesia)
-  - NiceOS (back from the dead)
-  - A custom language, ++C (alive, rewritting it in C, kinda ded)
+  - NiceOS (ded again)
+  - A custom language, ++C (alive, rewritting it in C)
 
 Whoever edited my readme is very funny, if he were making a standup comedy he would be sitting
