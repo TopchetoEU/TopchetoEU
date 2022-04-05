@@ -5,7 +5,7 @@
   - Mainly some shit to kill time, actually, that's all I do
   
   Some highlights:
-  - Minecraft.net (in state of anestesia)
+  - Minecraft.net (in state of anestesia, plans to turn it into Minecraft ++C)
   - NiceOS (ded again)
   - A custom language, ++C (alive)
 
