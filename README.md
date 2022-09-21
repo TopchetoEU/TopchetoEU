@@ -1,11 +1,12 @@
 # Who am i
-  - someone
+  - A student in TUES
+  - A developer
 
 # What do I do
-  - Mainly some shit to kill time, actually, that's all I do
+  - I program, play Minecraft and listen to music
   
   Some highlights:
-  - Minecraft.net (ded until further notice)
-  - NiceOS (ded again)
-  - A custom language, ++C (aliver than ever)
+  - Minecraft.net (rewritting minecraft in C#, we don't talk about it)
+  - NiceOS (custom OS, a lot dead)
+  - ++C (custom language, alive)
 
