@@ -1,0 +1,166 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Bukkit plugin.yml",
+    "description": "Schematic for Bukkit plugin.yml config file",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "pattern": "[a-zA-Z_]+",
+            "description": "The name of your plugin."
+        },
+        "version": {
+            "type": "string",
+            "description": "The version of this plugin."
+        },
+        "description": {
+            "type": "string",
+            "description": "A human friendly description of the functionality your plugin provides."
+        },
+        "load": {
+            "type": "string",
+            "description": "Explicitly state when the plugin should be loaded. if not supplied will default to postworld",
+            "enum": [
+                "STARTUP",
+                "POSTWORLD"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "description": "Uniquely identifies who developed this plugin."
+        },
+        "authors": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Allows you to list multiple authors, if it is a collaborative project. See author.",
+            "uniqueItems": true
+        },
+        "website": {
+            "type": "string",
+            "pattern": "^(https?:\\/\\/)?([\\da-z\\.-]+\\.[a-z\\.]{2,6}|[\\d\\.]+)([\\/:?=&#]{1}[\\da-z\\.-]+)*[\\/\\?]?$",
+            "description": "The plugin's or author's website."
+        },
+        "main": {
+            "type": "string",
+            "pattern": "^(([a-zA-Z_]+\\.)*[a-zA-Z_]+)$",
+            "description": "Points to the class that extends JavaPlugin"
+        },
+        "database": {
+            "type": "boolean",
+            "description": "Set to true if this plugin uses a database."
+        },
+        "depend": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^([A-Za-z_]+)$"
+            },
+            "uniqueItems": true,
+            "description": "A list of plugins that your plugin requires to load."
+        },
+        "prefix": {
+            "type": "string",
+            "pattern": "^([a-z]+(-[a-z]+)*)$",
+            "description": "The name to use when logging to console instead of the plugin's name."
+        },
+        "softdepend": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^([A-Za-z_]+)$"
+            },
+            "uniqueItems": true,
+            "description": "A list of plugins that are required for your plugin to have full functionality."
+        },
+        "loadbefore": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^([A-Za-z_]+)$"
+            },
+            "uniqueItems": true,
+            "description": "A list of plugins should be loaded after your plugin."
+        },
+        "commands": {
+            "type": "object",
+            "minProperties": 1,
+            "patternProperties": {
+                ".+": {
+                    "type": "object",
+                    "description": "The name of a command the plugin wishes to register, as well as an optional list of command attributes.",
+                    "properties": {
+                        "description": {
+                            "type": "string",
+                            "description": "A short description of what the command does."
+                        },
+                        "aliases": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "uniqueItems": true,
+                            "description": "Alternate command names a user may use instead"
+                        },
+                        "permission": {
+                            "type": "string",
+                            "description": "The most basic permission node required to use the command"
+                        },
+                        "permission-message": {
+                            "type": "string",
+                            "description": "A no-permission message"
+                        },
+                        "usage": {
+                            "type": "string",
+                            "description": "A short description of how to use this command."
+                        }
+                    }
+                }
+            }
+        },
+        "permissions": {
+            "type": "object",
+            "description": "Permissions that the plugin whishes to register. Each node represents a permission to register. Each permission can have additional attributes.",
+            "patternProperties": {
+                ".+": {
+                    "type": "object",
+                    "properties": {
+                        "dependencies": {
+                            "type": "string",
+                            "description": "A short description of what this permission allows"
+                        },
+                        "default": {
+                            "oneOf": [
+                                {
+                                    "type": "boolean"
+                                },
+                                {
+                                    "type": "string",
+                                    "enum": [
+                                        "op",
+                                        "not op"
+                                    ]
+                                }
+                            ],
+                            "description": "Sets the default value of the permission"
+                        },
+                        "children": {
+                            "description": "allows you to set children for the permission. Child nodes are permission names",
+                            "patternProperties": {
+                                "^.+$": {
+                                    "type": "boolean"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "name",
+        "version",
+        "main"
+    ]
+}
