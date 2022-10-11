@@ -1,12 +1,9 @@
-# Who am i
+# Who am I
   - A student in TUES
-  - A developer
-
-# What do I do
-  - I program, play Minecraft and listen to music
-  
-  Some highlights:
-  - Minecraft.net (rewritting minecraft in C#, we don't talk about it)
-  - NiceOS (custom OS, a lot dead)
-  - ++C (custom language, alive)
-
+  - A C++ low-level developer
+  - A Minecraft mod developer
+  - A nerd for everything computer-related  
+# Some highlights of my work:
+  - Animated chunks (a somewhat popular mod for animations of chunk loading, almost completed)
+  - NiceOS (an experiment of making my own OS, on hold until I finish the ++C compiler)
+  - ++C (custom language, currently in development)
