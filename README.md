@@ -1,6 +1,5 @@
 # Who am I
-  - A student in TUES
-  - A C++ low-level developer
+  - A C/C++ low-level developer
   - A Minecraft mod developer
   - A nerd for everything computer-related  
 # Some highlights of my work:
