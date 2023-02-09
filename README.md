@@ -1,5 +1,6 @@
 # Who am I
   - A C/C++ low-level developer
+  - A web developer
   - A Minecraft mod developer
   - A nerd for everything computer-related  
 # Some highlights of my work:
