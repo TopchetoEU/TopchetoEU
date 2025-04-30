@@ -12,3 +12,5 @@ Why? I wanted to remove as many Microsoft products from my life as possible, and
   - Animated chunks (a somewhat popular mod for animations of chunk loading, almost completed)
   - NiceOS (an experiment of making my own OS, on hold until I finish the ++C compiler)
   - ++C (custom language, currently in development)
+
+Tip: Never pay for SSL certificates, get them from [let's encrypt](https://letsencrypt.org).
